@@ -1,5 +1,14 @@
  # PyStitchr: (Data)Stitchr (Python Version)
 
+## Release 1.1
+(WIP) Work In Progress. Introducing code to support building the object dependencies associated with a query in prep to executing it dynamically. 
+This is the main functionality found in stitchr scala version. What is added includes
+* registry support
+* building the object dependency graph of a query based on the metadata in the registry.
+* test scripts to verify the functionality
+What is coming next to complete R 1.1 is to instantiate the dependent objects and execute the query
+
+
 ## Release 1
 
 ### Major changes 

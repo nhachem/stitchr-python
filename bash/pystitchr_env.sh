@@ -10,3 +10,7 @@ export VERSION=1.1
 export PYTHONPATH=$PYTHONPATH:$ROOT_DIR:$ROOT_DIR/pystitchr
 # export PYTHONPATH=$PYTHONPATH:`pwd`
 export JUPYTER_PATH=$PYTHONPATH:$JUPYTER_PATH
+
+# added for use in local runs
+export SPARK_MASTER_HOST=127.0.0.1
+export SPARK_LOCAL_IP="127.0.0.1"
